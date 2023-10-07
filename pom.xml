@@ -7,7 +7,33 @@
     <groupId>be.eafcuccle.kewou_durand</groupId>
     <artifactId>logging-performance-exercice</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
 
+        <!-- autres dépendances -->
+
+
+
+        <dependency>
+
+            <groupId>org.slf4j</groupId>
+
+            <artifactId>slf4j-api</artifactId>
+
+            <version>1.7.30</version>
+
+        </dependency>
+
+        <dependency>
+
+            <groupId>ch.qos.logback</groupId>
+
+            <artifactId>logback-classic</artifactId>
+
+            <version>1.2.3</version>
+
+        </dependency>
+
+    </dependencies>
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
